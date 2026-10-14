@@ -1,0 +1,43 @@
+{
+  "version": 3,
+  "frameWidth": 32,
+  "frameHeight": 48,
+  "framesPerDirection": 6,
+  "directions": [
+    "left",
+    "up",
+    "right",
+    "down"
+  ],
+  "sourceDirections": [
+    "right",
+    "up",
+    "left",
+    "down"
+  ],
+  "sourceBlocks": [
+    2,
+    1,
+    0,
+    3
+  ],
+  "characters": [
+    "ryoma",
+    "mie",
+    "rei"
+  ],
+  "anchor": {
+    "x": 16,
+    "y": 47
+  },
+  "animations": {
+    "run": {
+      "fps": 10
+    },
+    "idle_anim": {
+      "fps": 3,
+      "blinkFrame": 4
+    }
+  },
+  "derivation": "LimeZu Alex arm/leg motion; reference-specific head, uniform and book edits; profile nape and sloping back-collar join."
+}

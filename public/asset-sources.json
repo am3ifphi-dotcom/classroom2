@@ -1,0 +1,320 @@
+{
+  "retrieved": "2026-10-14",
+  "sources": [
+    {
+      "repository": "comato13/pixelUniversity",
+      "source": "assets/tiles/Modern tiles_Free/Interiors_free/16x16/Interiors_free_16x16.png",
+      "blob": "3a203b0b84d873b198eedcfe7a621d8a5d202e21",
+      "downloadTo": "public/assets/Interiors_free_16x16.png",
+      "license": "LimeZu Free / noncommercial only"
+    },
+    {
+      "repository": "comato13/pixelUniversity",
+      "source": "assets/tiles/Modern tiles_Free/Interiors_free/16x16/Room_Builder_free_16x16.png",
+      "blob": "026bca5e775d1be759ba1f2d95e64b57c3a0b0a7",
+      "downloadTo": "public/assets/Room_Builder_free_16x16.png",
+      "license": "LimeZu Free / noncommercial only"
+    },
+    {
+      "repository": "comato13/pixelUniversity",
+      "source": "assets/tiles/Modern tiles_Free/Characters_free/Alex_run_16x16.png",
+      "blob": "34249613c2798cd174945b5b6e923e232c78f83d",
+      "downloadTo": ".cache/Alex_run_16x16.png",
+      "license": "LimeZu Free / noncommercial only"
+    },
+    {
+      "repository": "comato13/pixelUniversity",
+      "source": "assets/tiles/Modern tiles_Free/Characters_free/Alex_idle_anim_16x16.png",
+      "blob": "9615cdcc61b6ab5a09e589da4fff5c749d7479a2",
+      "downloadTo": ".cache/Alex_idle_anim_16x16.png",
+      "license": "LimeZu Free / noncommercial only"
+    },
+    {
+      "repository": "comato13/pixelUniversity",
+      "source": "assets/tiles/Modern tiles_Free/LICENSE.txt",
+      "blob": "00a9f9a607f8f28bee34bc6d02e73500dd0a95d8",
+      "downloadTo": "public/licenses/LimeZu.txt",
+      "license": "License text"
+    },
+    {
+      "repository": "lewiji/MagicMissile",
+      "source": "frames/necromancer_idle_anim_f0.png",
+      "blob": "6d11e560354a5d5323160a36a079c60f44497238",
+      "downloadTo": ".cache/frames/necromancer_idle_anim_f0.png",
+      "license": "CC0-1.0 / 0x72"
+    },
+    {
+      "repository": "lewiji/MagicMissile",
+      "source": "frames/necromancer_idle_anim_f1.png",
+      "blob": "6932405105ff3e359d845baeab7cb2942a9cb2fa",
+      "downloadTo": ".cache/frames/necromancer_idle_anim_f1.png",
+      "license": "CC0-1.0 / 0x72"
+    },
+    {
+      "repository": "lewiji/MagicMissile",
+      "source": "frames/necromancer_idle_anim_f2.png",
+      "blob": "513d29999f4c5a29db6d30a2693085fe99dd3e9e",
+      "downloadTo": ".cache/frames/necromancer_idle_anim_f2.png",
+      "license": "CC0-1.0 / 0x72"
+    },
+    {
+      "repository": "lewiji/MagicMissile",
+      "source": "frames/necromancer_idle_anim_f3.png",
+      "blob": "d828d80e5a38e5119a0bea32b5f39ebac418b2dc",
+      "downloadTo": ".cache/frames/necromancer_idle_anim_f3.png",
+      "license": "CC0-1.0 / 0x72"
+    },
+    {
+      "repository": "lewiji/MagicMissile",
+      "source": "frames/chort_idle_anim_f0.png",
+      "blob": "9223cd296bb24d4bc38063e4ae76f96ba63cff23",
+      "downloadTo": ".cache/frames/chort_idle_anim_f0.png",
+      "license": "CC0-1.0 / 0x72"
+    },
+    {
+      "repository": "lewiji/MagicMissile",
+      "source": "frames/chort_idle_anim_f1.png",
+      "blob": "e2e513e070cb8d6457c18d948eda307b6de4bb2f",
+      "downloadTo": ".cache/frames/chort_idle_anim_f1.png",
+      "license": "CC0-1.0 / 0x72"
+    },
+    {
+      "repository": "lewiji/MagicMissile",
+      "source": "frames/chort_idle_anim_f2.png",
+      "blob": "9efcb8383d518acdf9d8c72ff9a76ba09c91a557",
+      "downloadTo": ".cache/frames/chort_idle_anim_f2.png",
+      "license": "CC0-1.0 / 0x72"
+    },
+    {
+      "repository": "lewiji/MagicMissile",
+      "source": "frames/chort_idle_anim_f3.png",
+      "blob": "f90a38828120ca3cbbc5bfef6d1312c145dcb8d1",
+      "downloadTo": ".cache/frames/chort_idle_anim_f3.png",
+      "license": "CC0-1.0 / 0x72"
+    },
+    {
+      "repository": "lewiji/MagicMissile",
+      "source": "frames/big_demon_idle_anim_f0.png",
+      "blob": "a018443065776623c26ec0442196ffa447cdaacd",
+      "downloadTo": ".cache/frames/big_demon_idle_anim_f0.png",
+      "license": "CC0-1.0 / 0x72"
+    },
+    {
+      "repository": "lewiji/MagicMissile",
+      "source": "frames/big_demon_idle_anim_f1.png",
+      "blob": "718ec7ad9db372340ce6005d4dcce5d5d7cb3a7d",
+      "downloadTo": ".cache/frames/big_demon_idle_anim_f1.png",
+      "license": "CC0-1.0 / 0x72"
+    },
+    {
+      "repository": "lewiji/MagicMissile",
+      "source": "frames/big_demon_idle_anim_f2.png",
+      "blob": "77937d59f24b774decee42c14de102e37ac242a8",
+      "downloadTo": ".cache/frames/big_demon_idle_anim_f2.png",
+      "license": "CC0-1.0 / 0x72"
+    },
+    {
+      "repository": "lewiji/MagicMissile",
+      "source": "frames/big_demon_idle_anim_f3.png",
+      "blob": "d059bc42b29017a95e65d9167fea00b93c0514e2",
+      "downloadTo": ".cache/frames/big_demon_idle_anim_f3.png",
+      "license": "CC0-1.0 / 0x72"
+    },
+    {
+      "repository": "morgan3d/quadplay",
+      "source": "sounds/music-moon.mp3",
+      "blob": "2f82abe4f278a9a25f3d23e4cc3d1633b1f889ca",
+      "downloadTo": "public/assets/audio/music-moon.mp3",
+      "license": "CC-BY-3.0 / Micah Young"
+    },
+    {
+      "repository": "morgan3d/quadplay",
+      "source": "sounds/music-moon.sound.json",
+      "blob": "e449f9d05771cf6d03f3f4c36435026b83ad24d4",
+      "downloadTo": "public/licenses/music-moon.sound.json",
+      "license": "Attribution metadata"
+    },
+    {
+      "repository": "morgan3d/quadplay",
+      "source": "sounds/music-connected.mp3",
+      "blob": "35274c160b20a5f56c1f831178a5b30b82ae98bf",
+      "downloadTo": "public/assets/audio/music-connected.mp3",
+      "license": "CC-BY-4.0 / Abstraction"
+    },
+    {
+      "repository": "morgan3d/quadplay",
+      "source": "sounds/music-connected.sound.json",
+      "blob": "645552853f5d36772e1a7e3ba124be62a957a26a",
+      "downloadTo": "public/licenses/music-connected.sound.json",
+      "license": "Attribution metadata"
+    },
+    {
+      "repository": "morgan3d/quadplay",
+      "source": "sounds/music-rumble_at_the_gates.mp3",
+      "blob": "611f4dc5bb41a3f654afe96f90fed36bd8cad892",
+      "downloadTo": "public/assets/audio/music-rumble_at_the_gates.mp3",
+      "license": "CC-BY-4.0 / Abstraction"
+    },
+    {
+      "repository": "morgan3d/quadplay",
+      "source": "sounds/music-rumble_at_the_gates.sound.json",
+      "blob": "89ca3024d6a06dbe2d854465f45cc79975923467",
+      "downloadTo": "public/licenses/music-rumble_at_the_gates.sound.json",
+      "license": "Attribution metadata"
+    },
+    {
+      "repository": "morgan3d/quadplay",
+      "source": "sprites/explosion-realistic-128x128.png",
+      "blob": "94d10f2c5c7b7395609830d301c0596ce00bb7a1",
+      "downloadTo": ".cache/explosion-realistic-128x128.png",
+      "license": "CC0-1.0 / Morgan McGuire"
+    },
+    {
+      "repository": "morgan3d/quadplay",
+      "source": "sprites/explosion-realistic-128x128.sprite.json",
+      "blob": "0b04046c8781c01cf990f07b781aa549843d8499",
+      "downloadTo": "public/licenses/explosion-realistic-128x128.sprite.json",
+      "license": "Attribution metadata"
+    },
+    {
+      "repository": "iwenzhou/kenney",
+      "source": "Audio (295 files)/RPG sounds (50 sounds)/footstep00.ogg",
+      "blob": "ca5dd2b6aa45f73f53685988aacec0a88f31887b",
+      "downloadTo": "public/assets/audio/footstep00.ogg",
+      "license": "CC0-1.0 / Kenney"
+    },
+    {
+      "repository": "iwenzhou/kenney",
+      "source": "Audio (295 files)/RPG sounds (50 sounds)/footstep01.ogg",
+      "blob": "e784dbff4808267daebd9297674f6532b1a826f3",
+      "downloadTo": "public/assets/audio/footstep01.ogg",
+      "license": "CC0-1.0 / Kenney"
+    },
+    {
+      "repository": "iwenzhou/kenney",
+      "source": "Audio (295 files)/RPG sounds (50 sounds)/knifeSlice.ogg",
+      "blob": "86338431259517417132d9b1aaa28eb9a9f36d95",
+      "downloadTo": "public/assets/audio/knifeSlice.ogg",
+      "license": "CC0-1.0 / Kenney"
+    },
+    {
+      "repository": "iwenzhou/kenney",
+      "source": "Audio (295 files)/RPG sounds (50 sounds)/knifeSlice2.ogg",
+      "blob": "cf6098e7395fcfeb537fa83ba41ba9ec0606e362",
+      "downloadTo": "public/assets/audio/knifeSlice2.ogg",
+      "license": "CC0-1.0 / Kenney"
+    },
+    {
+      "repository": "iwenzhou/kenney",
+      "source": "Audio (295 files)/RPG sounds (50 sounds)/bookOpen.ogg",
+      "blob": "acdd2721f125f5254e43cd6d169f7177672a02f5",
+      "downloadTo": "public/assets/audio/bookOpen.ogg",
+      "license": "CC0-1.0 / Kenney"
+    },
+    {
+      "repository": "iwenzhou/kenney",
+      "source": "Audio (295 files)/RPG sounds (50 sounds)/bookFlip1.ogg",
+      "blob": "7c0e80b9133df8bb4d451528d31cb0725ca44984",
+      "downloadTo": "public/assets/audio/bookFlip1.ogg",
+      "license": "CC0-1.0 / Kenney"
+    },
+    {
+      "repository": "iwenzhou/kenney",
+      "source": "Audio (295 files)/RPG sounds (50 sounds)/cloth1.ogg",
+      "blob": "b76853a893383a0facfb230a368404d136eff1a3",
+      "downloadTo": "public/assets/audio/cloth1.ogg",
+      "license": "CC0-1.0 / Kenney"
+    },
+    {
+      "repository": "iwenzhou/kenney",
+      "source": "Audio (295 files)/RPG sounds (50 sounds)/doorOpen_1.ogg",
+      "blob": "7df28265312494fc053380002e551b001dea89ad",
+      "downloadTo": "public/assets/audio/doorOpen_1.ogg",
+      "license": "CC0-1.0 / Kenney"
+    },
+    {
+      "repository": "iwenzhou/kenney",
+      "source": "Audio (295 files)/RPG sounds (50 sounds)/metalPot1.ogg",
+      "blob": "1c5143d308d587fdbb2fca4395d143f465d829a2",
+      "downloadTo": "public/assets/audio/metalPot1.ogg",
+      "license": "CC0-1.0 / Kenney"
+    },
+    {
+      "repository": "iwenzhou/kenney",
+      "source": "Audio (295 files)/Digital sounds (60 sounds)/powerUp5.ogg",
+      "blob": "dbe025a055f7699e5a709492fb090d968cee0e01",
+      "downloadTo": "public/assets/audio/powerUp5.ogg",
+      "license": "CC0-1.0 / Kenney"
+    },
+    {
+      "repository": "iwenzhou/kenney",
+      "source": "Audio (295 files)/Digital sounds (60 sounds)/zapThreeToneUp.ogg",
+      "blob": "9abcc9277436c1afbb656efbe257b417dd564d83",
+      "downloadTo": "public/assets/audio/zapThreeToneUp.ogg",
+      "license": "CC0-1.0 / Kenney"
+    },
+    {
+      "repository": "iwenzhou/kenney",
+      "source": "Audio (295 files)/Digital sounds (60 sounds)/lowDown.ogg",
+      "blob": "7616d01232db05963b7c2108fe866caca9c5f06d",
+      "downloadTo": "public/assets/audio/lowDown.ogg",
+      "license": "CC0-1.0 / Kenney"
+    },
+    {
+      "repository": "iwenzhou/kenney",
+      "source": "LICENSE.md",
+      "blob": "2660d3e82bac083d68c1ad225a3dee718f7af4b5",
+      "downloadTo": "public/licenses/Kenney-CC0.md",
+      "license": "License text"
+    },
+    {
+      "repository": "dyrdadev/ohi-ohi-dungeon",
+      "source": "Assets/Features/Explosions/Textures/explosion-1.png",
+      "blob": "f0945bff8573fad7622c5fd824d654e0f2c70f8a",
+      "downloadTo": ".cache/explosion-1.png",
+      "license": "CC0-1.0 / ansimuz"
+    },
+    {
+      "repository": "dyrdadev/ohi-ohi-dungeon",
+      "source": "ThirdPartyContent.md",
+      "blob": "29a56bac6e8e4ae8109fe6210d200d0fa78b707a",
+      "downloadTo": "public/licenses/0x72-ansimuz-attribution.md",
+      "license": "Attribution metadata"
+    },
+    {
+      "repository": "google/fonts",
+      "source": "ofl/shipporimincho/ShipporiMincho-Medium.ttf",
+      "blob": "b0afeb289e438fff78c9c98fc56079f3f15f8700",
+      "downloadTo": ".cache/serif.ttf",
+      "license": "OFL-1.1 / The Shippori Mincho Project Authors"
+    },
+    {
+      "repository": "google/fonts",
+      "source": "ofl/notosansjp/NotoSansJP[wght].ttf",
+      "blob": "cdd8f083c1f5928ff3361f8cda4d3fc9462cbe89",
+      "downloadTo": ".cache/sans.ttf",
+      "license": "OFL-1.1 / The Noto Project Authors"
+    },
+    {
+      "repository": "google/fonts",
+      "source": "ofl/shipporimincho/OFL.txt",
+      "blob": "a3f24cb5d7e61907ac03eecd760cb1e65a9eaef4",
+      "downloadTo": "public/licenses/ShipporiMincho-OFL.txt",
+      "license": "OFL-1.1 license text"
+    },
+    {
+      "repository": "google/fonts",
+      "source": "ofl/notosansjp/OFL.txt",
+      "blob": "1c9f43281b8f216c5461fe9ac729afbade7724e4",
+      "downloadTo": "public/licenses/NotoSansJP-OFL.txt",
+      "license": "OFL-1.1 license text"
+    }
+  ],
+  "note": "User-supplied portraits are derivatives only; source Drive files are not redistributed.",
+  "characterDerivatives": {
+    "metadata": "assets/characters.json",
+    "builder": "tools/character-art.py",
+    "source": "LimeZu Alex run / idle_anim: arm and leg poses",
+    "edits": "32x48. Reference-specific heads, navy blazers, burgundy ties, glasses for Ryoma/Mie, book for Rei. Explicit neck/jaw/collar join. R/U/L/D source normalised to L/U/R/D."
+  }
+}

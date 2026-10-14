@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ja">
+<head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no"/><meta name="theme-color" content="#121824"/><meta name="description" content="桐葉高校、17時32分。終わらない放課後をほどく、短編ピクセルアクションRPG。"/><title>本質の残響 ── 帰れない放課後</title><link rel="icon" type="image/svg+xml" href="/icon.svg"/></head>
+<body>
+<main id="game" aria-label="本質の残響 アクションRPG">
+  <canvas id="world" aria-label="桐葉高校のゲーム画面"></canvas>
+  <div class="vignette" aria-hidden="true"></div><div class="grain" aria-hidden="true"></div>
+  <div id="loading"><div class="loading-symbol">✝</div><p>放課後を読み込んでいます</p><span id="load-status">桐葉高校 · 北棟</span></div>
+  <div id="hud" class="hud">
+    <section class="player-panel" aria-label="プレイヤーの状態">
+      <div class="portrait-frame"><img src="/assets/ryoma-portrait.png" alt="両馬二郎"/><span id="level-badge">01</span></div>
+      <div class="player-stats"><div class="player-name">両馬 二郎 <span id="level">LV. 01</span></div><div class="stat-label"><span>HP</span><span id="hp-text">100 / 100</span></div><div class="bar hp"><i id="hp-bar"></i></div><div class="stat-label energy-label"><span>本質共鳴</span><span id="mp-text">60 / 60</span></div><div class="bar mp"><i id="mp-bar"></i></div></div>
+    </section>
+    <div class="location"><div class="location-kicker"><span class="live-dot"></span> 桐葉高校 · 北棟</div><h1 id="room-name">理数科 1年B組</h1><div class="time-label"><span>放課後</span><b>17 : 32</b><span class="time-rule"></span><span id="weather">夕凪</span></div></div>
+    <div class="top-right"><div class="resource"><i data-lucide="sparkles"></i><span id="essence-count">000</span><small>残響</small></div><button id="menu-btn" class="icon-btn" aria-label="手帳・ゲームメニュー" title="手帳 [Tab]"><i data-lucide="menu"></i></button></div>
+    <section class="quest-panel"><div class="eyebrow"><span class="quest-diamond">◇</span> 現在の目的</div><h2 id="quest-title">終わらない放課後</h2><p id="quest-desc">三重に話しかける</p><div class="quest-progress" id="quest-progress"><span></span><span></span><span></span><small>綻び <b id="seal-count">0</b> / 3</small></div></section>
+    <section class="minimap-panel" aria-label="北棟のミニマップ"><div class="minimap-heading"><span>北棟 2F</span><small>N ↑</small></div><canvas id="minimap" width="176" height="112"></canvas><div class="map-legend"><span><i class="map-dot player"></i>現在地</span><span><i class="map-dot rift"></i>綻び</span></div></section>
+    <div id="boss-panel" hidden><small>境界の主</small><h2>名もない放課後</h2><div class="bar boss"><i id="boss-bar"></i></div></div>
+    <div class="bottom-left"><div class="chapter-mark">零</div><div><small>ANOTHER AFTER SCHOOL</small><span>第零夜 <i>／</i> 帰れない放課後</span></div></div>
+    <nav class="action-bar" aria-label="アクション"><button data-action="attack" class="skill"><kbd>J</kbd><i data-lucide="sword"></i><span>断章</span></button><button data-action="dash" class="skill" id="dash-skill"><kbd>SPACE</kbd><i data-lucide="wind"></i><span>すり抜け</span><div class="cooldown"></div></button><button data-action="cast" class="skill primary" id="cast-skill"><kbd>Q</kbd><i data-lucide="sparkles"></i><span>本質解放</span><div class="cooldown"></div></button><button data-action="heal" class="skill" id="heal-skill"><kbd>R</kbd><i data-lucide="flask-conical"></i><span>ラムネ <b id="potion-count">3</b></span></button></nav>
+    <div class="bottom-right"><span><kbd>W A S D</kbd> 移動</span><span><kbd>E</kbd> 調べる</span><button id="sound-btn" aria-label="音を切り替える"><i data-lucide="volume-x"></i></button><button id="fullscreen-btn" aria-label="全画面表示"><i data-lucide="maximize"></i></button></div>
+  </div>
+  <div id="intro" class="intro"><div class="intro-line"></div><div class="eyebrow">桐葉高校異聞録</div><h2>本質の<span>残響</span><b>✝</b></h2><p class="intro-en">ECHOES OF THE UNDEFINED</p><p class="intro-copy">チャイムは鳴った。<br>それでも、放課後は終わらない。</p><button id="start-btn" class="gold-button"><span>放課後へ踏み出す</span><i data-lucide="arrow-right"></i></button><button id="continue-btn" class="text-button" hidden>記録からつづける <span>→</span></button><div class="intro-foot">原作の人物・世界観による、ゲーム独自の物語<br><span>探索 × リアルタイムアクション</span></div></div>
+  <div id="interaction" hidden><kbd>E</kbd><span>話しかける</span></div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <div id="area-banner" class="area-banner" hidden><small>桐葉高校異聞録</small><strong></strong><span></span></div>
+  <section id="dialogue" hidden aria-label="会話"><img id="dialogue-portrait" alt=""/><div class="dialogue-inner"><div class="dialogue-speaker"><strong id="speaker-name"></strong><span id="speaker-role"></span></div><p id="dialogue-text"></p><button id="dialogue-next"><span id="dialogue-counter"></span><kbd>E</kbd> 次へ <span>▾</span></button></div></section>
+  <div id="modal-backdrop" class="modal-backdrop" hidden><section id="menu" class="menu-panel" role="dialog" aria-modal="true" aria-labelledby="menu-title"><header><div><div class="eyebrow">KIRIHA FIELD NOTES</div><h2 id="menu-title">放課後の手帳</h2></div><button id="close-menu" class="icon-btn" aria-label="手帳を閉じる"><i data-lucide="x"></i></button></header><nav class="tabs"><button data-tab="journal" class="active">調査記録</button><button data-tab="characters">人物</button><button data-tab="controls">操作・設定</button><button data-tab="credits">制作・素材</button></nav><div id="menu-content"></div><footer><span id="save-status">進行は自動的に記録されます</span><button id="save-btn" class="outline-button">記録する</button><button id="resume-btn" class="gold-button">教室に戻る <span>→</span></button></footer></section></div>
+  <div id="end-screen" class="end-screen" hidden><div class="eyebrow" id="end-kicker"></div><h2 id="end-title"></h2><p id="end-copy"></p><div id="end-stats"></div><button id="retry-btn" class="gold-button"></button><button id="end-credits" class="text-button">制作・素材クレジット</button></div>
+  <div id="touch-controls"><div id="joystick" aria-label="移動スティック"><div id="stick"></div></div><button id="touch-interact" data-action="interact">E<span>調べる</span></button></div>
+  <div id="save-indicator" aria-live="polite">◇ 記録しました</div>
+</main>
+<script type="module" src="/src/main.js"></script>
+</body></html>
